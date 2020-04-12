@@ -13,7 +13,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <project.distribution.url>https://tal.jfrog.io/artifactory</project.distribution.url>
+    <project.distribution.url>http://34.89.253.14:8082/artifactory</project.distribution.url>
   </properties>
   
   <distributionManagement>

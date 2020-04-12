@@ -12,9 +12,9 @@ pipeline {
     }
     stage('Build and Deploy') {
        steps {
-         sh 'mvn clean deploy -Dusername=admin -Dpassword=AP974LdvTpjLKmhcm6r9cng68FJ -Dbuildnumber=7 -s settings.xml'
-       }
-    }
+         sh 'cd maths && mvn clean deploy -Dusername=admin -Dpassword=AP974LdvTpjLKmhcm6r9cng68FJ -Dbuildnumber=7 -s settings.xml'
+       }   
+}
 }
 }
 
